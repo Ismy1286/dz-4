@@ -1,8 +1,13 @@
-//
-//  NewsModel.swift
-//  DZ-4.5.4
-//
-//  Created by user on 10.01.2022.
-//
-
 import Foundation
+
+class NewsModel {
+    var title: String
+    var description: String
+    var image: String
+    
+    init(title: String, description: String, image: String) {
+        self.title = title
+        self.description = description
+        self.image = image
+    }
+}

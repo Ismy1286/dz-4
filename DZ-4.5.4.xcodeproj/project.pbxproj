@@ -3,19 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15551C632BFA8379A17953CF /* Pods_DZ_4_5_4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ECAB84857F373056CBB28A7 /* Pods_DZ_4_5_4.framework */; };
 		CE20F3C5278C1D0A00953EAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE20F3C4278C1D0A00953EAE /* AppDelegate.swift */; };
 		CE20F3C7278C1D0A00953EAE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE20F3C6278C1D0A00953EAE /* SceneDelegate.swift */; };
 		CE20F3C9278C1D0A00953EAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE20F3C8278C1D0A00953EAE /* ViewController.swift */; };
 		CE20F3CC278C1D0A00953EAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE20F3CA278C1D0A00953EAE /* Main.storyboard */; };
 		CE20F3CE278C1D0B00953EAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE20F3CD278C1D0B00953EAE /* Assets.xcassets */; };
 		CE20F3D1278C1D0B00953EAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE20F3CF278C1D0B00953EAE /* LaunchScreen.storyboard */; };
+		CEDF0CAD278C1DC70065A800 /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDF0CAC278C1DC70065A800 /* NewsCell.swift */; };
+		CEDF0CAF278C1DD50065A800 /* NewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDF0CAE278C1DD50065A800 /* NewsModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E47F898368B021596598748 /* Pods-DZ-4.5.4.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DZ-4.5.4.release.xcconfig"; path = "Target Support Files/Pods-DZ-4.5.4/Pods-DZ-4.5.4.release.xcconfig"; sourceTree = "<group>"; };
+		4ECAB84857F373056CBB28A7 /* Pods_DZ_4_5_4.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DZ_4_5_4.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE20F3C1278C1D0A00953EAE /* DZ-4.5.4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DZ-4.5.4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE20F3C4278C1D0A00953EAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE20F3C6278C1D0A00953EAE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,9 @@
 		CE20F3CD278C1D0B00953EAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE20F3D0278C1D0B00953EAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE20F3D2278C1D0B00953EAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEDF0CAC278C1DC70065A800 /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
+		CEDF0CAE278C1DD50065A800 /* NewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsModel.swift; sourceTree = "<group>"; };
+		DE9ECBDC7417A2DC2A107EDF /* Pods-DZ-4.5.4.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DZ-4.5.4.debug.xcconfig"; path = "Target Support Files/Pods-DZ-4.5.4/Pods-DZ-4.5.4.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +39,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15551C632BFA8379A17953CF /* Pods_DZ_4_5_4.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14E362950B9F1F7F49538414 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4ECAB84857F373056CBB28A7 /* Pods_DZ_4_5_4.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CE20F3B8278C1D0A00953EAE = {
 			isa = PBXGroup;
 			children = (
 				CE20F3C3278C1D0A00953EAE /* DZ-4.5.4 */,
 				CE20F3C2278C1D0A00953EAE /* Products */,
+				E8BD018FFC9E08F26B65C834 /* Pods */,
+				14E362950B9F1F7F49538414 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +82,19 @@
 				CE20F3CD278C1D0B00953EAE /* Assets.xcassets */,
 				CE20F3CF278C1D0B00953EAE /* LaunchScreen.storyboard */,
 				CE20F3D2278C1D0B00953EAE /* Info.plist */,
+				CEDF0CAC278C1DC70065A800 /* NewsCell.swift */,
+				CEDF0CAE278C1DD50065A800 /* NewsModel.swift */,
 			);
 			path = "DZ-4.5.4";
+			sourceTree = "<group>";
+		};
+		E8BD018FFC9E08F26B65C834 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DE9ECBDC7417A2DC2A107EDF /* Pods-DZ-4.5.4.debug.xcconfig */,
+				2E47F898368B021596598748 /* Pods-DZ-4.5.4.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE20F3D5278C1D0B00953EAE /* Build configuration list for PBXNativeTarget "DZ-4.5.4" */;
 			buildPhases = (
+				C128491294AE2D0EF2E124B5 /* [CP] Check Pods Manifest.lock */,
 				CE20F3BD278C1D0A00953EAE /* Sources */,
 				CE20F3BE278C1D0A00953EAE /* Frameworks */,
 				CE20F3BF278C1D0A00953EAE /* Resources */,
+				940A015E6BA3CBB2BE885856 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,6 +164,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		940A015E6BA3CBB2BE885856 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DZ-4.5.4/Pods-DZ-4.5.4-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DZ-4.5.4/Pods-DZ-4.5.4-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DZ-4.5.4/Pods-DZ-4.5.4-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C128491294AE2D0EF2E124B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DZ-4.5.4-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CE20F3BD278C1D0A00953EAE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -139,7 +213,9 @@
 			files = (
 				CE20F3C9278C1D0A00953EAE /* ViewController.swift in Sources */,
 				CE20F3C5278C1D0A00953EAE /* AppDelegate.swift in Sources */,
+				CEDF0CAD278C1DC70065A800 /* NewsCell.swift in Sources */,
 				CE20F3C7278C1D0A00953EAE /* SceneDelegate.swift in Sources */,
+				CEDF0CAF278C1DD50065A800 /* NewsModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +359,7 @@
 		};
 		CE20F3D6278C1D0B00953EAE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE9ECBDC7417A2DC2A107EDF /* Pods-DZ-4.5.4.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -301,6 +378,7 @@
 		};
 		CE20F3D7278C1D0B00953EAE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E47F898368B021596598748 /* Pods-DZ-4.5.4.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
